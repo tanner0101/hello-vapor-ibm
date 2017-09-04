@@ -1,5 +1,5 @@
 applications:
- — name: HelloVapor
+- name: HelloVapor
  memory: 256M
  command: .build/release/Run
  buildpack: https://github.com/seabaylea/swift-buildpack
