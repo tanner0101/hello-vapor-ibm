@@ -1,6 +1,5 @@
 applications:
  — name: HelloVapor
- random-route: true
  memory: 256M
- command: HelloVapor
+ command: .build/release/Run
  buildpack: https://github.com/seabaylea/swift-buildpack
