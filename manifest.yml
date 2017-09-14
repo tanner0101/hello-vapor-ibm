@@ -2,4 +2,5 @@ applications:
 - name: HelloVapor
   memory: 256M
   command: .build/release/Run
-  buildpack: https://github.com/seabaylea/swift-buildpack
+  random-route: true
+  buildpack: https://github.com/IBM-Swift/swift-buildpack#develop
